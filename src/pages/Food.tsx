@@ -1,0 +1,31 @@
+import { useState } from "react";
+import CustomBreak from "../components/CustomBreak";
+import product from "../assets/products.json";
+import ProductCard from "../components/ProductCard";
+import "../assets/main.css";
+
+function Food() {
+	const [searchQuery, setSearchQuery] = useState("");
+
+	return (
+		<div className="main">
+			<CustomBreak height={2} />
+			<h1 className="title">Food</h1>
+			<div className="searchBarContainer">
+				<input value={searchQuery} type="text" placeholder="🔎 Search Product Name" onChange={(event) => setSearchQuery(event.target.value)} className="searchBar" />
+			</div>
+			<div className="cards">
+				{product
+					.filter((product) => {
+						return product.name.toLowerCase().startsWith(searchQuery.toLowerCase()) && product.page === "food";
+					})
+					.map((product) => {
+						const imageUrl = product.imgURL;
+						return <ProductCard key={product.name} name={product.name} description={product.description} price={product.price} productPageLink={"/" + product.pageName + ".html"} imgURL={imageUrl} searchQuery={searchQuery} />;
+					})}
+			</div>
+		</div>
+	);
+}
+
+export default Food;

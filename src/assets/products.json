@@ -1,0 +1,42 @@
+[
+	{
+		"name": "Lorem Foodum",
+		"pageName": "foodum",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+		"productPageDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, reprehenderit. Pariatur fugiat fuga saepe iusto dolorem doloribus ducimus veniam soluta praesentium, vitae provident illo molestiae error tempora dolor unde labore.",
+		"price": 100,
+		"checkoutLink": "https://stripe.com",
+		"imgURL": "https://fastly.picsum.photos/id/15/2500/1667.jpg?hmac=Lv03D1Y3AsZ9L2tMMC1KQZekBVaQSDc1waqJ54IHvo4",
+		"page": "food"
+	},
+	{
+		"name": "Lorem I Foodum",
+		"pageName": "ifoodum",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+		"productPageDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, reprehenderit. Pariatur fugiat fuga saepe iusto dolorem doloribus ducimus veniam soluta praesentium, vitae provident illo molestiae error tempora dolor unde labore.",
+		"price": 100,
+		"checkoutLink": "https://stripe.com",
+		"imgURL": "https://fastly.picsum.photos/id/142/4272/2848.jpg?hmac=z8IS_an6FQ8ijJOBd-wSVg1JTZbeIDG4TbjHwLQbs0I",
+		"page": "food"
+	},
+	{
+		"name": "Lorem Clothum",
+		"pageName": "clothum",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+		"productPageDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, reprehenderit. Pariatur fugiat fuga saepe iusto dolorem doloribus ducimus veniam soluta praesentium, vitae provident illo molestiae error tempora dolor unde labore.",
+		"price": 100,
+		"checkoutLink": "https://stripe.com",
+		"imgURL": "https://fastly.picsum.photos/id/147/2448/2448.jpg?hmac=Xk6y7EeyG6VQTac1N9IhDAwLVNVeCn_KBN4nO5SRxPw",
+		"page": "clothes"
+	},
+	{
+		"name": "Lorem I Clothum",
+		"pageName": "iclothum",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+		"productPageDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, reprehenderit. Pariatur fugiat fuga saepe iusto dolorem doloribus ducimus veniam soluta praesentium, vitae provident illo molestiae error tempora dolor unde labore.",
+		"price": 100,
+		"checkoutLink": "https://stripe.com",
+		"imgURL": "https://fastly.picsum.photos/id/155/3264/2176.jpg?hmac=Zgf_oGMJeg18XoKBFmJgp2DgHMRYuorXlDx5wLII9nU",
+		"page": "clothes"
+	}
+]
