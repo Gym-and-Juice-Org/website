@@ -25,7 +25,6 @@ function Product({ name, productPageDescription, price, checkoutLink, imgURL }: 
 					<p>${price}</p>
 					<button>Buy</button>
 				</div>
-				<CustomBreak height={100000} />
 			</div>
 			<GlobalFooter />
 		</>
