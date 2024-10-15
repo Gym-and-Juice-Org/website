@@ -7,7 +7,7 @@ function GlobalNavBar() {
 			<div className="navContent">
 				<ul className="navList">
 					<a href="/" className="navLink">
-						<img src={logo} width="30px" height="30px" alt="Logo" />
+						<img src={logo} width="100%" height="30px" alt="Logo" />
 					</a>
 					<Link to="food.html" className="navLink">
 						Food
