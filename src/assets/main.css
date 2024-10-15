@@ -329,6 +329,18 @@ nav {
 	text-decoration: none;
 }
 
+.navLink img {
+	height: 30px;
+	width: 100%;
+	transition: all 0.3s ease;
+}
+
+.navLink:hover img {
+	height: 35px;
+	width: 100%;
+	transition: all 0.3s ease;
+}
+
 .aboutMe {
 	display: flex;
 	flex-direction: row;
@@ -440,6 +452,7 @@ nav {
 	height: calc(100vh - 45px);
 	overflow: hidden;
 	z-index: 1;
+	object-fit: cover;
 }
 
 .productPageImageOverlay {
@@ -466,8 +479,16 @@ nav {
 	margin-bottom: 50px;
 	margin-right: auto;
 	width: 400px;
+	height: 132px;
 	padding: 20px;
 	display: inline;
+	transition: all 0.3s ease;
+}
+
+.productPageImageContent:hover {
+	height: 142px;
+	width: 410px;
+	transition: all 0.3s ease;
 }
 
 .productPageImageContent h1 {
@@ -487,7 +508,7 @@ nav {
 	padding: 10px;
 	padding-top: 2px;
 	padding-bottom: 2px;
-	width: fit-content;
+	width: 126px;
 	margin: 10px;
 	height: 48px;
 	backdrop-filter: blur(20px) saturate(1);
@@ -495,6 +516,13 @@ nav {
 	border-radius: 100vmax;
 	bottom: 40px;
 	right: 0;
+	transition: all 0.5s ease;
+}
+
+.buyDiv:hover {
+	width: 136px;
+	height: 58px;
+	transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 630px) {
