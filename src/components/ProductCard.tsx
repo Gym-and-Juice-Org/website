@@ -10,7 +10,7 @@ interface ProductCardProps {
 function ProductCard({ name, description, price, productPageLink, imgURL, searchQuery }: ProductCardProps) {
 	return (
 		<div className="card" onClick={() => (window.location.href = productPageLink)}>
-			<img src={imgURL} draggable="false" />
+			<img src={imgURL} draggable="false" alt={name} />
 			<div className="content">
 				<h2 dangerouslySetInnerHTML={{ __html: selectivelyBoldText(name, searchQuery, true) }} className="h2NotBold" />
 				<p>{description}</p>

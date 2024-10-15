@@ -15,7 +15,7 @@ function Product({ name, productPageDescription, price, checkoutLink, imgURL }: 
 	return (
 		<>
 			<CustomBreak height={2} />
-			<img src={imgURL} className="productPageImage" />
+			<img src={imgURL} className="productPageImage" alt={name} />
 			<div className="productPageImageOverlay">
 				<div className="productPageImageContent">
 					<h1>{name}</h1>
