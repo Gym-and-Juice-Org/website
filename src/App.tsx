@@ -27,9 +27,6 @@ function App() {
 					<Route path="/contact.html">
 						<Contact />
 					</Route>
-					<Route path="/*">
-						<NotFound />
-					</Route>
 					{products.map((product) => {
 						return (
 							<Route path={"/" + product.pageName + ".html"}>
@@ -37,6 +34,9 @@ function App() {
 							</Route>
 						);
 					})}
+					<Route path="/*">
+						<NotFound />
+					</Route>
 				</Switch>
 			</Router>
 		</div>
