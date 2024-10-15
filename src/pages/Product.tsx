@@ -1,4 +1,5 @@
 import CustomBreak from "../components/CustomBreak";
+import GlobalFooter from "../components/GlobalFooter";
 
 interface ProductProps {
 	name: string;
@@ -9,6 +10,8 @@ interface ProductProps {
 }
 
 function Product({ name, productPageDescription, price, checkoutLink, imgURL }: ProductProps) {
+	// Set the page title
+	document.title = "Gym and Juice | " + name;
 	return (
 		<>
 			<CustomBreak height={2} />
@@ -24,6 +27,7 @@ function Product({ name, productPageDescription, price, checkoutLink, imgURL }: 
 				</div>
 				<CustomBreak height={100000} />
 			</div>
+			<GlobalFooter />
 		</>
 	);
 }

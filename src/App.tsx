@@ -8,6 +8,7 @@ import Clothes from "./pages/Clothes";
 import Contact from "./pages/Contact";
 import Product from "./pages/Product";
 import products from "./assets/products.json";
+import NotFound from "./pages/404";
 
 function App() {
 	return (
@@ -27,6 +28,9 @@ function App() {
 					<Route path="/contact.html">
 						<Contact />
 					</Route>
+					<Route path="/*">
+						<NotFound />
+					</Route>
 					{products.map((product) => {
 						return (
 							<Route path={"/" + product.pageName + ".html"}>
@@ -36,7 +40,6 @@ function App() {
 					})}
 				</Switch>
 			</Router>
-			<GlobalFooter />
 		</div>
 	);
 }

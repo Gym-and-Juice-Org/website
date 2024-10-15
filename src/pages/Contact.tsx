@@ -1,7 +1,9 @@
 import CustomBreak from "../components/CustomBreak";
+import GlobalFooter from "../components/GlobalFooter";
 import "../assets/main.css";
 
 function Contact() {
+	document.title = "Gym and Juice | Contact";
 	return (
 		<div className="main">
 			<CustomBreak height={3} />
@@ -18,10 +20,11 @@ function Contact() {
 					<p>4659, QLD Australia</p>
 
 					<h4>Phone Number:</h4>
-					<p>(+61) 123 456 789</p>
+					<p>(+61) 437 392 193</p>
 				</div>
 			</div>
 			<CustomBreak height={2} />
+			<GlobalFooter />
 		</div>
 	);
 }

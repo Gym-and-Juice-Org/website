@@ -1,6 +1,10 @@
-function GlobalFooter() {
+interface GlobalFooterProps {
+	bottom?: boolean;
+}
+
+function GlobalFooter({ bottom }: GlobalFooterProps) {
 	return (
-		<footer>
+		<footer className={bottom ? "bottom" : ""}>
 			<p>Copyright © 2024 Gym and Juice</p>
 		</footer>
 	);

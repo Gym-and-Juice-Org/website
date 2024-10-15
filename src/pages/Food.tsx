@@ -2,11 +2,12 @@ import { useState } from "react";
 import CustomBreak from "../components/CustomBreak";
 import product from "../assets/products.json";
 import ProductCard from "../components/ProductCard";
+import GlobalFooter from "../components/GlobalFooter";
 import "../assets/main.css";
 
 function Food() {
 	const [searchQuery, setSearchQuery] = useState("");
-
+	document.title = "Gym and Juice | Food";
 	return (
 		<div className="main">
 			<CustomBreak height={2} />
@@ -24,6 +25,7 @@ function Food() {
 						return <ProductCard key={product.name} name={product.name} description={product.description} price={product.price} productPageLink={"/" + product.pageName + ".html"} imgURL={imageUrl} searchQuery={searchQuery} />;
 					})}
 			</div>
+			<GlobalFooter />
 		</div>
 	);
 }
