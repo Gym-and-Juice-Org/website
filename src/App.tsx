@@ -1,7 +1,6 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import GlobalNavBar from "./components/GlobalNavBar";
-import GlobalFooter from "./components/GlobalFooter";
 import Index from "./pages/Index";
 import Food from "./pages/Food";
 import Clothes from "./pages/Clothes";
