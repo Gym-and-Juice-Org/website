@@ -431,7 +431,7 @@ nav {
 }
 
 .card:hover {
-	border: solid 4px #009f08;
+	border: solid 4px #253924;
 	transition: border-color 0.5s ease;
 }
 
