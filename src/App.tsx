@@ -10,6 +10,7 @@ import products from "./assets/products.json";
 import NotFound from "./pages/404";
 import "./assets/fonts.css";
 import "./assets/main.css";
+import Shop from "./pages/Shop";
 
 function App() {
 	return (
@@ -28,6 +29,9 @@ function App() {
 					</Route>
 					<Route path="/contact.html">
 						<Contact />
+					</Route>
+					<Route path="/shop.html">
+						<Shop />
 					</Route>
 					{products.map((product) => {
 						return (

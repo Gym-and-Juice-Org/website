@@ -4,23 +4,24 @@ import product from "../assets/products.json";
 import ProductCard from "../components/ProductCard";
 import GlobalFooter from "../components/GlobalFooter";
 
-function Clothes() {
+function Shop() {
 	const [searchQuery, setSearchQuery] = useState("");
-	document.title = "Gym and Juice | Clothes";
+	document.title = "Gym and Juice | Shop";
 	return (
 		<div className="main">
 			<CustomBreak height={2} />
-			<h1 className="title">Clothes</h1>
+			<h1 className="title">Shop</h1>
 			<div className="searchBarContainer">
 				<input value={searchQuery} type="text" placeholder="Search..." onChange={(event) => setSearchQuery(event.target.value)} className="searchBar" />
 			</div>
 			<div className="cards">
 				{product
 					.filter((product) => {
-						return product.name.toLowerCase().startsWith(searchQuery.toLowerCase()) && product.page === "clothes";
+						return product.name.toLowerCase().includes(searchQuery.toLowerCase());
 					})
 					.map((product) => {
-						return <ProductCard key={product.name} name={product.name} description={product.description} price={product.price} productPageLink={"/" + product.pageName + ".html"} imgURL={product.imgURL} searchQuery={searchQuery} />;
+						const imageUrl = product.imgURL;
+						return <ProductCard key={product.name} name={product.name} description={product.description} price={product.price} productPageLink={"/" + product.pageName + ".html"} imgURL={imageUrl} searchQuery={searchQuery} />;
 					})}
 			</div>
 			<GlobalFooter />
@@ -28,4 +29,4 @@ function Clothes() {
 	);
 }
 
-export default Clothes;
+export default Shop;

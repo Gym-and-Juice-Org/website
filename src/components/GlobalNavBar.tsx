@@ -9,6 +9,9 @@ function GlobalNavBar() {
 					<a href="/" className="navLink">
 						<img src={logo} alt="Logo" />
 					</a>
+					<Link to="shop.html" className="navLink">
+						Shop
+					</Link>
 					<Link to="food.html" className="navLink">
 						Food
 					</Link>

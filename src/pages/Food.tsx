@@ -12,7 +12,7 @@ function Food() {
 			<CustomBreak height={2} />
 			<h1 className="title">Food</h1>
 			<div className="searchBarContainer">
-				<input value={searchQuery} type="text" placeholder="🔎 Search Product Name" onChange={(event) => setSearchQuery(event.target.value)} className="searchBar" />
+				<input value={searchQuery} type="text" placeholder="Search..." onChange={(event) => setSearchQuery(event.target.value)} className="searchBar" />
 			</div>
 			<div className="cards">
 				{product

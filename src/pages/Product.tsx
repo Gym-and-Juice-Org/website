@@ -10,7 +10,6 @@ interface ProductProps {
 }
 
 function Product({ name, productPageDescription, price, checkoutLink, imgURL }: ProductProps) {
-	// Set the page title
 	document.title = "Gym and Juice | " + name;
 	return (
 		<>
@@ -21,9 +20,9 @@ function Product({ name, productPageDescription, price, checkoutLink, imgURL }: 
 					<h1>{name}</h1>
 					<p>{productPageDescription}</p>
 				</div>
-				<div className="buyDiv" onClick={() => window.open(checkoutLink)}>
+				<div className="buyDiv">
 					<p>${price}</p>
-					<button>Buy</button>
+					<button onClick={() => (window.location.href = checkoutLink)}>Buy</button>
 				</div>
 			</div>
 			<GlobalFooter />
