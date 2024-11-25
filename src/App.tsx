@@ -8,6 +8,8 @@ import Contact from "./pages/Contact";
 import Product from "./pages/Product";
 import products from "./assets/products.json";
 import NotFound from "./pages/404";
+import "./assets/fonts.css";
+import "./assets/main.css";
 
 function App() {
 	return (

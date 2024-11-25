@@ -1,6 +1,5 @@
 import CustomBreak from "../components/CustomBreak";
 import GlobalFooter from "../components/GlobalFooter";
-import "../assets/main.css";
 
 function Contact() {
 	document.title = "Gym and Juice | Contact";

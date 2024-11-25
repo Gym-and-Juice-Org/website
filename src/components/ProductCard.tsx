@@ -14,7 +14,7 @@ function ProductCard({ name, description, price, productPageLink, imgURL, search
 			<div className="content">
 				<h2 dangerouslySetInnerHTML={{ __html: selectivelyBoldText(name, searchQuery, true) }} className="h2NotBold" />
 				<p>{description}</p>
-				<h4>${price}</h4>
+				<h4 className="poppins-regular">${price}</h4>
 			</div>
 		</div>
 	);

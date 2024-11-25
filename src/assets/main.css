@@ -21,6 +21,7 @@
 }
 
 b {
+	font-family: "Allura", serif;
 	font-weight: bold;
 }
 
@@ -33,24 +34,28 @@ b {
 }
 
 h1 {
+	font-family: "Allura", serif;
 	color: #e1e1e1;
 	font-size: 2.5em;
 	margin-bottom: 20px;
 }
 
 h2 {
+	font-family: "Allura", serif;
 	color: #dbdbdb;
 	font-size: 2em;
 	margin-bottom: 20px;
 }
 
 h3 {
+	font-family: "Allura", serif;
 	color: #cccccc;
 	font-size: 1.5em;
 	margin-bottom: 20px;
 }
 
 h4 {
+	font-family: "Allura", serif;
 	margin-top: 20px;
 	font-size: 1.2em;
 	margin-bottom: 10px;
@@ -58,6 +63,7 @@ h4 {
 }
 
 p {
+	font-family: "Poppins", sans-serif;
 	color: #c3c3c3;
 }
 

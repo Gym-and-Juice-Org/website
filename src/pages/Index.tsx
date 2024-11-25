@@ -1,7 +1,6 @@
 import CustomBreak from "../components/CustomBreak";
 import hero from "../assets/hero.mp4";
 import GlobalFooter from "../components/GlobalFooter";
-import "../assets/main.css";
 
 function Index() {
 	return (

@@ -1,6 +1,5 @@
 import GlobalFooter from "../components/GlobalFooter";
 import logo from "../assets/img/logo.png";
-import "../assets/main.css";
 
 function NotFound() {
 	document.title = "Gym and Juice | 404";

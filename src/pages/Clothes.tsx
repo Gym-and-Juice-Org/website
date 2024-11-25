@@ -3,7 +3,6 @@ import CustomBreak from "../components/CustomBreak";
 import product from "../assets/products.json";
 import ProductCard from "../components/ProductCard";
 import GlobalFooter from "../components/GlobalFooter";
-import "../assets/main.css";
 
 function Clothes() {
 	const [searchQuery, setSearchQuery] = useState("");
