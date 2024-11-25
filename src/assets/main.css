@@ -384,16 +384,9 @@ nav {
 	margin-bottom: 50px;
 	margin-right: auto;
 	width: 400px;
-	height: 132px;
 	padding: 20px;
 	display: inline;
-	transition: all 0.3s ease;
-}
-
-.productPageImageContent:hover {
-	height: 142px;
-	width: 410px;
-	transition: all 0.3s ease;
+	transition: all 0.3s ease-in-out;
 }
 
 .productPageImageContent h1 {
@@ -450,7 +443,7 @@ nav {
 }
 
 .buyDiv button {
-	background: #007aff;
+	background: #253924;
 	border-radius: 100vmax;
 	border: none;
 	padding: 10px;
@@ -458,6 +451,11 @@ nav {
 	padding-right: 25px;
 	color: #ffffff;
 	margin-left: 10px;
+	transition: all 0.3s ease-in-out;
+}
+
+.buyDiv button:hover {
+	background: #1b291a;
 }
 
 .buyDiv p {
@@ -469,7 +467,7 @@ nav {
 /* Misc Styles */
 
 .btn {
-	background: #007aff;
+	background: #253924;
 	border-radius: 15px;
 	display: inline-block;
 	padding: 10px 20px;
@@ -478,6 +476,11 @@ nav {
 	font-size: 1em;
 	z-index: 2;
 	width: fit-content;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+	background: #1b291a;
 }
 
 .bottom {
