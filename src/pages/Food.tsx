@@ -9,7 +9,7 @@ function Food() {
 	document.title = "Gym and Juice | Food";
 	return (
 		<div className="main">
-			<CustomBreak height={2} />
+			<CustomBreak height={3} />
 			<h1 className="title">Food</h1>
 			<div className="searchBarContainer">
 				<input value={searchQuery} type="text" placeholder="Search..." onChange={(event) => setSearchQuery(event.target.value)} className="searchBar" />

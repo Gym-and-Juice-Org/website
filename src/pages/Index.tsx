@@ -1,5 +1,5 @@
-import CustomBreak from "../components/CustomBreak";
 import hero from "../assets/hero.mp4";
+import CustomBreak from "../components/CustomBreak";
 import GlobalFooter from "../components/GlobalFooter";
 
 function Index() {
@@ -19,7 +19,7 @@ function Index() {
 					</div>
 				</div>
 			</section>
-			<CustomBreak height={1} />
+			<CustomBreak height={2} />
 			<GlobalFooter />
 		</div>
 	);

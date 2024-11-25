@@ -1,4 +1,3 @@
-import CustomBreak from "../components/CustomBreak";
 import GlobalFooter from "../components/GlobalFooter";
 
 interface ProductProps {
@@ -13,7 +12,6 @@ function Product({ name, productPageDescription, price, checkoutLink, imgURL }: 
 	document.title = "Gym and Juice | " + name;
 	return (
 		<>
-			<CustomBreak height={2} />
 			<img src={imgURL} className="productPageImage" alt={name} />
 			<div className="productPageImageOverlay">
 				<div className="productPageImageContent">
