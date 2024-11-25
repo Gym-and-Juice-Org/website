@@ -12,7 +12,7 @@ function Index() {
 				<div className="heroOverlay">
 					<div className="heroContent">
 						<h1>Gym and Juice</h1>
-						<p>Get Fit and Stay Fit!</p>
+						<p style={{ fontFamily: "Allura, serif" }}>Get Fit and Stay Fit!</p>
 						<a href="shop.html" className="btn">
 							Shop
 						</a>

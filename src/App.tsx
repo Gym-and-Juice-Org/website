@@ -9,7 +9,6 @@ import Product from "./pages/Product";
 import products from "./assets/products.json";
 import NotFound from "./pages/404";
 import Shop from "./pages/Shop";
-import "./assets/fonts.css";
 import "./assets/main.css";
 import "./assets/nav.css";
 import "./assets/productNav.css";
