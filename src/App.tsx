@@ -8,9 +8,14 @@ import Contact from "./pages/Contact";
 import Product from "./pages/Product";
 import products from "./assets/products.json";
 import NotFound from "./pages/404";
+import Shop from "./pages/Shop";
 import "./assets/fonts.css";
 import "./assets/main.css";
-import Shop from "./pages/Shop";
+import "./assets/nav.css";
+import "./assets/productNav.css";
+import "./assets/products.css";
+import "./assets/contact.css";
+import "./assets/hero.css";
 
 function App() {
 	return (

@@ -1,0 +1,111 @@
+.productPageImage {
+	position: relative;
+	width: 100%;
+	height: calc(100vh);
+	overflow: hidden;
+	z-index: 1;
+	object-fit: cover;
+}
+
+.productPageImageOverlay {
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 2;
+	display: flex;
+	flex-direction: row;
+}
+
+.productPageImageContent {
+	border-radius: 25px;
+	background-color: #49494980;
+	backdrop-filter: blur(20px) saturate(1);
+	margin-left: 10px;
+	margin-top: auto;
+	margin-bottom: 50px;
+	margin-right: auto;
+	width: 400px;
+	padding: 20px;
+	display: inline;
+	transition: all 0.3s ease-in-out;
+}
+
+.productPageImageContent h1 {
+	font-size: 1.8em;
+}
+
+.productPageImageContent p {
+	font-size: 0.8em;
+}
+
+.buyDiv {
+	position: absolute;
+	z-index: 3;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	width: 126px;
+	margin: 10px;
+	height: 48px;
+	backdrop-filter: blur(20px) saturate(1);
+	background-color: #49494980;
+	border-radius: 100vmax;
+	bottom: 40px;
+	right: 0;
+	transition: all 0.5s ease;
+}
+
+.buyDiv:hover {
+	width: 136px;
+	height: 58px;
+	transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 630px) {
+	.buyDiv {
+		position: unset;
+		margin-inline: auto;
+		margin-bottom: 50px;
+		width: calc(100vw - 50px);
+		justify-content: space-between;
+	}
+	.productPageImageOverlay {
+		flex-direction: column;
+	}
+	.productPageImageContent {
+		position: unset;
+		margin-bottom: 5px;
+		margin-inline: auto;
+		width: calc(100vw - 70px);
+	}
+}
+
+.buyDiv button {
+	background: #253924;
+	border-radius: 100vmax;
+	border: none;
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: #ffffff;
+	margin-left: 10px;
+	transition: all 0.3s ease-in-out;
+}
+
+.buyDiv button:hover {
+	background: #1b291a;
+}
+
+.buyDiv p {
+	color: #ffffff;
+	font-size: 1.2em;
+	font-weight: bold;
+}
