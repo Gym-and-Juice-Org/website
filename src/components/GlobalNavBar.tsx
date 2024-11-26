@@ -9,16 +9,16 @@ function GlobalNavBar() {
 					<a href="/" className="navLink">
 						<img src={logo} alt="Logo" />
 					</a>
-					<Link to="shop.html" className="navLink">
+					<Link to="/shop.html" className="navLink">
 						Shop
 					</Link>
-					<Link to="food.html" className="navLink">
+					<Link to="/food.html" className="navLink">
 						Food
 					</Link>
-					<Link to="clothes.html" className="navLink">
+					<Link to="/clothes.html" className="navLink">
 						Clothes
 					</Link>
-					<Link to="contact.html" className="navLink">
+					<Link to="/contact.html" className="navLink">
 						Contact
 					</Link>
 				</ul>
